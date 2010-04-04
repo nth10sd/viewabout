@@ -29,14 +29,12 @@
             <menuitem value="about:cache?device=offline" label="&aboutCacheOffline.label;" accesskey="&aboutCacheOffline.accesskey;"/>
           </menupopup>
         </menu>
-        <!-- about:certerror -->
-        <menuitem value="about:certerror" label="&aboutCertError.label;" accesskey="&aboutCertError.accesskey;"/>
+        <!-- about:config -->
+        <menuitem value="about:config" label="&aboutConfig.label;" accesskey="&aboutConfig.accesskey;"/>
         <menuseparator id="viewAboutMenuSeparatorOne"/>
         <!-- End of set of 5 entries -->
 
         <!-- Set of 5 entries -->
-        <!-- about:config -->
-        <menuitem value="about:config" label="&aboutConfig.label;" accesskey="&aboutConfig.accesskey;"/>
         <!-- about:crashes -->
         <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
         <!-- about:credits -->
@@ -45,12 +43,12 @@
         <menuitem value="about:icecream" label="&aboutIceCream.label;" accesskey="&aboutIceCream.accesskey;"/>
         <!-- about:jetpack -->
         <menuitem value="about:jetpack" label="&aboutJetpack.label;" accesskey="&aboutJetpack.accesskey;"/>
+        <!-- about:kitchensink -->
+        <menuitem value="about:kitchensink" label="&aboutKitchenSink.label;" accesskey="&aboutKitchenSink.accesskey;"/>
         <menuseparator id="viewAboutMenuSeparatorTwo"/>
         <!-- End of set of 5 entries -->
 
         <!-- Set of 5 entries -->
-        <!-- about:kitchensink -->
-        <menuitem value="about:kitchensink" label="&aboutKitchenSink.label;" accesskey="&aboutKitchenSink.accesskey;"/>
         <!-- about:license menu -->
         <menu id="viewAboutLicenseMenu" label="&viewAboutLicenseMenu.label;" accesskey="&viewAboutLicenseMenu.accesskey;">
           <menupopup id="menu_viewAboutLicense">
@@ -64,41 +62,44 @@
         <menuitem value="about:me" label="&aboutMe.label;" accesskey="&aboutMe.accesskey;"/>
         <!-- about:memory -->
         <menuitem value="about:memory" label="&aboutMemory.label;" accesskey="&aboutMemory.accesskey;"/>
+        <!-- about:mozilla -->
+        <menuitem value="about:mozilla" label="&aboutMozilla.label;" accesskey="&aboutMozilla.accesskey;"/>
         <menuseparator id="viewAboutMenuSeparatorThree"/>
         <!-- End of set of 5 entries -->
 
         <!-- Set of 5 entries -->
-        <!-- about:mozilla -->
-        <menuitem value="about:mozilla" label="&aboutMozilla.label;" accesskey="&aboutMozilla.accesskey;"/>
-        <!-- about:neterror (just the error for an unknown page; not useful by itself) -->
-        <menuitem value="about:neterror" label="&aboutNetError.label;" accesskey="&aboutNetError.accesskey;"/>
         <!-- about:plugins -->
         <menuitem value="about:plugins" label="&aboutPlugins.label;" accesskey="&aboutPlugins.accesskey;"/>
         <!-- about:privatebrowsing -->
         <menuitem value="about:privatebrowsing" label="&aboutPrivateBrowsing.label;" accesskey="&aboutPrivateBrowsing.accesskey;"/>
         <!-- about:rights -->
         <menuitem value="about:rights" label="&aboutRights.label;" accesskey="&aboutRights.accesskey;"/>
-        <menuseparator id="viewAboutMenuSeparatorFour"/>
-        <!-- End of set of 5 entries -->
-
-        <!-- Set of 5 entries -->
         <!-- about:robots -->
         <menuitem value="about:robots" label="&aboutRobots.label;" accesskey="&aboutRobots.accesskey;"/>
         <!-- about:search -->
         <menuitem value="about:search" label="&aboutSearch.label;" accesskey="&aboutSearch.accesskey;"/>
+        <menuseparator id="viewAboutMenuSeparatorFour"/>
+        <!-- End of set of 5 entries -->
+
+        <!-- Set of 5 entries -->
         <!-- about:sessionrestore -->
         <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
         <!-- about:shopping -->
         <menuitem value="about:shopping" label="&aboutShopping.label;" accesskey="&aboutShopping.accesskey;"/>
         <!-- about:support -->
         <menuitem value="about:support" label="&aboutSupport.label;" accesskey="&aboutSupport.accesskey;"/>
-        <menuseparator id="viewAboutMenuSeparatorFive"/>
-        <!-- End of set of 5 entries -->
-
-        <!-- Set of entries -->
         <!-- about:weave -->
         <menuitem value="about:weave" label="&aboutWeave.label;" accesskey="&aboutWeave.accesskey;"/>
-        <menuseparator id="viewAboutMenuSeparatorSix"/>
+        <!-- Menu for various error messages, not useful by themselves -->
+        <menu id="viewAboutErrorMenu" label="&viewAboutErrorMenu.label;" accesskey="&viewAboutErrorMenu.accesskey;">
+          <menupopup id="menu_viewAboutErrorMenuPopup">
+            <!-- about:certerror -->
+            <menuitem value="about:certerror" label="&aboutCertError.label;" accesskey="&aboutCertError.accesskey;"/>
+            <!-- about:neterror (just the error for an unknown page; not useful by itself) -->
+            <menuitem value="about:neterror" label="&aboutNetError.label;" accesskey="&aboutNetError.accesskey;"/>
+          </menupopup>
+        </menu>
+        <menuseparator id="viewAboutMenuSeparatorFive"/>
         <!-- End of set of entries -->
 
       </menupopup>

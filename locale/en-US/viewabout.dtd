@@ -1,7 +1,14 @@
+<!ENTITY viewAboutMenu.label "ViewAbout">
+<!ENTITY viewAboutMenu.accesskey "w">
+
 <!ENTITY about.label "about:">
 <!ENTITY about.accesskey "a">
+<!ENTITY aboutAccessibilityEnabled.label "about:accessibilityenabled">
+<!ENTITY aboutAccessibilityEnabled.accesskey "e">
 <!ENTITY aboutBuildConfig.label "about:buildconfig">
 <!ENTITY aboutBuildConfig.accesskey "b">
+<!ENTITY viewAboutCacheMenu.label "about:cache">
+<!ENTITY viewAboutCacheMenu.accesskey "h">
 <!ENTITY aboutCache.label "about:cache">
 <!ENTITY aboutCache.accesskey "c">
 <!ENTITY aboutCacheDisk.label "about:cache?device=disk">
@@ -12,31 +19,53 @@
 <!ENTITY aboutCacheOffline.accesskey "o">
 <!ENTITY aboutConfig.label "about:config">
 <!ENTITY aboutConfig.accesskey "o">
+
 <!ENTITY aboutCrashes.label "about:crashes">
-<!ENTITY aboutCrashes.accesskey "r">
+<!ENTITY aboutCrashes.accesskey "c">
 <!ENTITY aboutCredits.label "about:credits">
-<!ENTITY aboutCredits.accesskey "e">
+<!ENTITY aboutCredits.accesskey "d">
+<!ENTITY aboutIceCream.label "about:icecream">
+<!ENTITY aboutIceCream.accesskey "i">
+<!ENTITY aboutJetpack.label "about:jetpack">
+<!ENTITY aboutJetpack.accesskey "j">
+<!ENTITY aboutKitchenSink.label "about:kitchensink">
+<!ENTITY aboutKitchenSink.accesskey "k">
+
+<!ENTITY viewAboutLicenseMenu.label "about:license">
+<!ENTITY viewAboutLicenseMenu.accesskey "l">
 <!ENTITY aboutLicense.label "Generic Toolkit license">
 <!ENTITY aboutLicense.accesskey "l">
+<!ENTITY aboutLogo.label "about:logo">
+<!ENTITY aboutLogo.accesskey "g">
+<!ENTITY aboutMe.label "about:me">
+<!ENTITY aboutMe.accesskey "m">
+<!ENTITY aboutMemory.label "about:memory">
+<!ENTITY aboutMemory.accesskey "y">
 <!ENTITY aboutMozilla.label "about:mozilla">
 <!ENTITY aboutMozilla.accesskey "z">
-<!ENTITY aboutNetError.label "about:neterror">
-<!ENTITY aboutNetError.accesskey "n">
+
 <!ENTITY aboutPlugins.label "about:plugins">
 <!ENTITY aboutPlugins.accesskey "p">
 <!ENTITY aboutPrivateBrowsing.label "about:privatebrowsing">
-<!ENTITY aboutPrivateBrowsing.accesskey "i">
+<!ENTITY aboutPrivateBrowsing.accesskey "v">
 <!ENTITY aboutRights.label "about:rights">
-<!ENTITY aboutRights.accesskey "g">
+<!ENTITY aboutRights.accesskey "t">
 <!ENTITY aboutRobots.label "about:robots">
-<!ENTITY aboutRobots.accesskey "t">
+<!ENTITY aboutRobots.accesskey "b">
+<!ENTITY aboutSearch.label "about:search">
+<!ENTITY aboutSearch.accesskey "s">
+
 <!ENTITY aboutSessionRestore.label "about:sessionrestore">
-<!ENTITY aboutSessionRestore.accesskey "s">
+<!ENTITY aboutSessionRestore.accesskey "r">
+<!ENTITY aboutShopping.label "about:shopping">
+<!ENTITY aboutShopping.accesskey "p">
+<!ENTITY aboutSupport.label "about:support">
+<!ENTITY aboutSupport.accesskey "t">
 <!ENTITY aboutWeave.label "about:weave">
 <!ENTITY aboutWeave.accesskey "w">
-<!ENTITY viewAboutCacheMenu.label "about:cache">
-<!ENTITY viewAboutCacheMenu.accesskey "c">
-<!ENTITY viewAboutLicenseMenu.label "about:license">
-<!ENTITY viewAboutLicenseMenu.accesskey "l">
-<!ENTITY viewAboutMenu.label "ViewAbout">
-<!ENTITY viewAboutMenu.accesskey "w">
+<!ENTITY viewAboutErrorMenu.label "Error pages not useful by themselves">
+<!ENTITY viewAboutErrorMenu.accesskey "e">
+<!ENTITY aboutCertError.label "about:certerror">
+<!ENTITY aboutCertError.accesskey "r">
+<!ENTITY aboutNetError.label "about:neterror">
+<!ENTITY aboutNetError.accesskey "n">
