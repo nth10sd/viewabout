@@ -10,7 +10,7 @@
          This is a sub-overlay that goes onto one of those, depending on which application this is. (via chrome.manifest)
          We don't need multiple versions of the menu this way. Detection of available about URLs is in viewabout.js. -->
     <menu id="viewAboutMenu">
-      <menupopup id="menu_viewAbout" oncommand="viewabout.openDialog(event.target.value);">
+      <menupopup id="menu_viewAbout" oncommand="viewabout.openUrl(event.target.value);">
 
         <!-- about: -->
         <menuitem value="about:" label="&about.label;" accesskey="&about.accesskey;"/>
