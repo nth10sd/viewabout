@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://viewabout/locale/viewabout.dtd">
+
+<overlay id="viewabout-menuoverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="viewabout.js"/>
+
+    <!-- "viewAboutMenu" is defined in overlay-fx-sb.xul & overlay-sm-tb.xul
+         This is a sub-overlay that goes onto one of those, depending on which application this is. (via chrome.manifest)
+         We don't need multiple versions of the menu this way. Detection of available about URLs is in viewabout.js. -->
+    <menu id="viewAboutMenu">
+      <menupopup id="menu_viewAbout" oncommand="viewabout.openDialog(event.target.value);">
+
+        <!-- about: -->
+        <menuitem value="about:" label="&about.label;" accesskey="&about.accesskey;"/>
+        <!-- about:buildconfig -->
+        <menuitem value="about:buildconfig" label="&aboutBuildConfig.label;" accesskey="&aboutBuildConfig.accesskey;"/>
+
+        <!-- about:cache menu -->
+        <menu id="viewAboutCacheMenu" label="&viewAboutCacheMenu.label;" accesskey="&viewAboutCacheMenu.accesskey;">
+          <menupopup id="menu_viewAboutCache">
+            <!-- about:cache and related -->
+            <menuitem value="about:cache" label="&aboutCache.label;" accesskey="&aboutCache.accesskey;"/>
+            <menuitem value="about:cache?device=disk" label="&aboutCacheDisk.label;" accesskey="&aboutCacheDisk.accesskey;"/>
+            <menuitem value="about:cache?device=memory" label="&aboutCacheMemory.label;" accesskey="&aboutCacheMemory.accesskey;"/>
+            <menuitem value="about:cache?device=offline" label="&aboutCacheOffline.label;" accesskey="&aboutCacheOffline.accesskey;"/>
+          </menupopup>
+        </menu>
+
+        <!-- about:config -->
+        <menuitem value="about:config" label="&aboutConfig.label;" accesskey="&aboutConfig.accesskey;"/>
+        <!-- about:crashes -->
+        <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
+
+        <menuseparator id="viewAboutMenuSeparatorOne"/>
+
+        <!-- about:credits -->
+        <menuitem value="about:credits" label="&aboutCredits.label;" accesskey="&aboutCredits.accesskey;"/>
+
+        <!-- about:license menu -->
+        <menu id="viewAboutLicenseMenu" label="&viewAboutLicenseMenu.label;" accesskey="&viewAboutLicenseMenu.accesskey;">
+          <menupopup id="menu_viewAboutLicense">
+            <!-- about:license -->
+            <menuitem value="about:license" label="&aboutLicense.label;" accesskey="&aboutLicense.accesskey;"/>
+          </menupopup>
+        </menu>
+
+        <!-- about:mozilla -->
+        <menuitem value="about:mozilla" label="&aboutMozilla.label;" accesskey="&aboutMozilla.accesskey;"/>
+        <!-- about:neterror (just the error for an unknown page; not useful by itself) -->
+        <menuitem value="about:neterror" label="&aboutNetError.label;" accesskey="&aboutNetError.accesskey;"/>
+        <!-- about:plugins -->
+        <menuitem value="about:plugins" label="&aboutPlugins.label;" accesskey="&aboutPlugins.accesskey;"/>
+
+        <menuseparator id="viewAboutMenuSeparatorTwo"/>
+
+        <!-- about:privatebrowsing -->
+        <menuitem value="about:privatebrowsing" label="&aboutPrivateBrowsing.label;" accesskey="&aboutPrivateBrowsing.accesskey;"/>
+        <!-- about:rights -->
+        <menuitem value="about:rights" label="&aboutRights.label;" accesskey="&aboutRights.accesskey;"/>
+        <!-- about:robots -->
+        <menuitem value="about:robots" label="&aboutRobots.label;" accesskey="&aboutRobots.accesskey;"/>
+        <!-- about:sessionrestore -->
+        <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
+        <!-- about:weave -->
+        <menuitem value="about:weave" label="&aboutWeave.label;" accesskey="&aboutWeave.accesskey;"/>
+
+      </menupopup>
+    </menu>
+
+</overlay>
