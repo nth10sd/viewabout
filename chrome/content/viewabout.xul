@@ -21,7 +21,7 @@
         <menuitem value="about:buildconfig" label="&aboutBuildConfig.label;" accesskey="&aboutBuildConfig.accesskey;"/>
         <!-- about:cache menu -->
         <menu id="viewAboutCacheMenu" label="&viewAboutCacheMenu.label;" accesskey="&viewAboutCacheMenu.accesskey;">
-          <menupopup id="menu_viewAboutCache">
+          <menupopup id="menu_viewAboutCacheMenuPopup">
             <!-- about:cache and related -->
             <menuitem value="about:cache" label="&aboutCache.label;" accesskey="&aboutCache.accesskey;"/>
             <menuitem value="about:cache?device=disk" label="&aboutCacheDisk.label;" accesskey="&aboutCacheDisk.accesskey;"/>
@@ -51,7 +51,7 @@
         <!-- Set of 5 entries -->
         <!-- about:license menu -->
         <menu id="viewAboutLicenseMenu" label="&viewAboutLicenseMenu.label;" accesskey="&viewAboutLicenseMenu.accesskey;">
-          <menupopup id="menu_viewAboutLicense">
+          <menupopup id="menu_viewAboutLicenseMenuPopup">
             <!-- about:license -->
             <menuitem value="about:license" label="&aboutLicense.label;" accesskey="&aboutLicense.accesskey;"/>
           </menupopup>
