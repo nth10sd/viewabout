@@ -1,20 +1,37 @@
+var getAboutUrls = function () {
+    var l = "@mozilla.org/network/protocol/about;1?what=", it;
+    var ans = [];
+    for (var i in Cc) {
+        if (i.indexOf(l) == 0) {
+            ans.push("about:" + i.substr(l.length))
+        }
+    }
+    return ans
+}
+
 var viewabout =
 {
     onLoad : function()
     {
-        var ios = Components.classes["@mozilla.org/network/io-service;1"]
-                            .getService(Components.interfaces.nsIIOService);
         var menu = document.getElementById("menu_viewAbout");
         var menuitems = menu.getElementsByTagName("menuitem");
         for (var i=0; i < menuitems.length; i++)
         {
             var aboutURL = menuitems[i].value;
-            try
-            {
-                var channel = ios.newChannel(aboutURL,null,null);  // Will throw NS_ERROR_MALFORMED_URI when not available
+            
+            detectedBool = false;
+            detectedAboutUrlsArray = getAboutUrls();
+            // Look for all the detected about: URLs in the application.
+            for (var j=0; j < detectedAboutUrlsArray.length; j++) {
+                detectedAboutURL = detectedAboutUrlsArray[j];
+                // Compare with known about: URLs in ViewAbout with .xul files.
+                if (aboutURL == detectedAboutURL) {
+                    detectedBool = true;
+                    break
+                }
             }
-            catch (e)  // Not valid URL; hide it
-            {
+            // Not valid URL; hide it
+            if (detectedBool == false) {
                 menuitems[i].hidden = true;
             }
         }
