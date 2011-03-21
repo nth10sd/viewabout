@@ -4,7 +4,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>viewabout@rumblingedge.com</em:id>
-    <em:version>2.0</em:version>
+    <em:version>2.0.1</em:version>
     <em:type>2</em:type>
 
     <!-- Firefox -->
@@ -12,7 +12,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>2.0</em:minVersion>
-        <em:maxVersion>3.7a5pre</em:maxVersion>
+        <em:maxVersion>4.0.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
@@ -21,7 +21,7 @@
       <Description>
         <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
         <em:minVersion>2.0</em:minVersion>
-        <em:maxVersion>3.2a1pre</em:maxVersion>
+        <em:maxVersion>3.3a4pre</em:maxVersion>
       </Description>
     </em:targetApplication>
 
@@ -30,7 +30,7 @@
       <Description>
         <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
         <em:minVersion>2.0a2</em:minVersion>
-        <em:maxVersion>2.1a1pre</em:maxVersion>
+        <em:maxVersion>2.1b3</em:maxVersion>
       </Description>
     </em:targetApplication>
 
@@ -58,13 +58,14 @@
     <em:creator>Gary Kwong</em:creator>
     <em:homepageURL>http://www.rumblingedge.com/viewabout/</em:homepageURL>
     <em:contributor>Ehsan Akhgari</em:contributor>
-    <em:contributor>Mark Finkle</em:contributor>
-    <em:contributor>Philip Chee</em:contributor>
-    <em:contributor>Stefan Sitter</em:contributor>
-    <em:contributor>Dave Garrett</em:contributor>
-    <em:contributor>Nils Maier</em:contributor>
-    <em:contributor>Daniel Delgado</em:contributor>
     <em:contributor>Mark Banner</em:contributor>
+    <em:contributor>Philip Chee</em:contributor>
+    <em:contributor>Daniel Delgado</em:contributor>
+    <em:contributor>Mark Finkle</em:contributor>
+    <em:contributor>Dave Garrett</em:contributor>
+    <em:contributor>harry</em:contributor>
+    <em:contributor>Nils Maier</em:contributor>
     <em:contributor>Wayne Mery</em:contributor>
+    <em:contributor>Stefan Sitter</em:contributor>
   </Description>
 </RDF>
