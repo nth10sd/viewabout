@@ -1,3 +1,5 @@
+Components.utils.import("resource://gre/modules/Services.jsm");
+
 var getAboutUrls = function () {
     var l = "@mozilla.org/network/protocol/about;1?what=", it;
     var ans = [];
@@ -43,8 +45,8 @@ var viewabout =
       var versionCheck = Components.classes["@mozilla.org/xpcom/version-comparator;1"]
                                    .getService(Components.interfaces.nsIVersionComparator);
 
-      if (Application.id == "{3550f703-e582-4d05-9a08-453d09bdfdc6}" &&
-          versionCheck.compare(Application.version, "3.0") >= 0) {
+      if (Services.appinfo.ID == "{3550f703-e582-4d05-9a08-453d09bdfdc6}" &&
+          versionCheck.compare(Services.appinfo.version, "3.0") >= 0) {
 
         // This is Thunderbird
         let tabmail = document.getElementById("tabmail");
