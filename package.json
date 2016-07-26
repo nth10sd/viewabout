@@ -1,0 +1,17 @@
+{
+  "title": "ViewAbout",
+  "name": "viewabout",
+  "version": "2.0.3",
+  "id": "viewabout@rumblingedge.com",
+  "description": "Enables access to various about: dialogs from the View menu.",
+  "main": "chrome/content/viewabout.js",
+  "author": "Gary Kwong",
+  "engines": {
+    "firefox": ">=45.*",
+    "thunderbird": ">=45.*"
+  },
+  "license": "MPL2",
+  "keywords": [
+      "jetpack"
+  ]
+}
