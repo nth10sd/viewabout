@@ -18,7 +18,7 @@ var viewabout =
         for (var i=0; i < menuitems.length; i++)
         {
             var aboutURL = menuitems[i].value;
-            
+
             detectedBool = false;
             detectedAboutUrlsArray = getAboutUrls();
             // Look for all the detected about: URLs in the application.

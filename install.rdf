@@ -50,7 +50,7 @@
         <em:minVersion>0.2a1</em:minVersion>
         <em:maxVersion>0.2.*</em:maxVersion>
       </Description>
-    </em:targetApplication>		
+    </em:targetApplication>
 
     <!-- Front End MetaData -->
     <em:name>ViewAbout</em:name>
