@@ -7,8 +7,8 @@
   "main": "chrome/content/viewabout.js",
   "author": "Gary Kwong",
   "engines": {
-    "firefox": ">=45.*",
-    "thunderbird": ">=45.*"
+    "firefox": ">=45.0a1",
+    "thunderbird": ">=45.0a1"
   },
   "license": "MPL2",
   "keywords": [
