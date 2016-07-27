@@ -1,7 +1,7 @@
 {
   "title": "ViewAbout",
   "name": "viewabout",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "id": "viewabout@rumblingedge.com",
   "description": "Enables access to various about: dialogs from the View menu.",
   "main": "chrome/content/viewabout.js",

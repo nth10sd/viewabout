@@ -1,3 +1,6 @@
+## 2.0.4
+* Minor tweaks to Fx/Tb versioning support to make ViewAbout install properly
+
 ## 2.0.3
 
 ### Changes
