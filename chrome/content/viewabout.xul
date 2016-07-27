@@ -88,8 +88,6 @@
         <menuitem value="about:shopping" label="&aboutShopping.label;" accesskey="&aboutShopping.accesskey;"/>
         <!-- about:support -->
         <menuitem value="about:support" label="&aboutSupport.label;" accesskey="&aboutSupport.accesskey;"/>
-        <!-- about:weave -->
-        <menuitem value="about:weave" label="&aboutWeave.label;" accesskey="&aboutWeave.accesskey;"/>
         <!-- Menu for various error messages, not useful by themselves -->
         <menu id="viewAboutErrorMenu" label="&viewAboutErrorMenu.label;" accesskey="&viewAboutErrorMenu.accesskey;">
           <menupopup id="menu_viewAboutErrorMenuPopup">

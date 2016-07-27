@@ -61,8 +61,6 @@
 <!ENTITY aboutShopping.accesskey "p">
 <!ENTITY aboutSupport.label "about:support">
 <!ENTITY aboutSupport.accesskey "t">
-<!ENTITY aboutWeave.label "about:weave">
-<!ENTITY aboutWeave.accesskey "w">
 <!ENTITY viewAboutErrorMenu.label "Error pages not useful by themselves">
 <!ENTITY viewAboutErrorMenu.accesskey "e">
 <!ENTITY aboutCertError.label "about:certerror">
