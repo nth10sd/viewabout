@@ -10,7 +10,7 @@
     "firefox": ">=45.0a1",
     "thunderbird": ">=45.0a1"
   },
-  "license": "MPL2",
+  "license": "MPL-2.0",
   "keywords": [
       "menu"
   ]
