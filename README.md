@@ -42,7 +42,7 @@ A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, incl
 1. about:me
 2. about:tabs
 
-### Seemingly useless
+### Miscellaneous errors that are seemingly useless
 1. about:certerror
 2. about:neterror
 
