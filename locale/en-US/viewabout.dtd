@@ -86,12 +86,6 @@
 <!ENTITY aboutSessionRestore.accesskey "e">
 <!ENTITY aboutSupport.label "about:support">
 <!ENTITY aboutSupport.accesskey "u">
-<!ENTITY viewAboutSyncMenu.label "about:sync-*">
-<!ENTITY viewAboutSyncMenu.accesskey "y">
-<!ENTITY aboutSyncLog.label "about:sync-log">
-<!ENTITY aboutSyncLog.accesskey "l">
-<!ENTITY aboutSyncTabs.label "about:sync-tabs">
-<!ENTITY aboutSyncTabs.accesskey "t">
 <!ENTITY aboutTabs.label "about:tabs">
 <!ENTITY aboutTabs.accesskey "t">
 <!ENTITY aboutTelemetry.label "about:telemetry">

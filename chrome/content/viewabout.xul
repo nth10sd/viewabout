@@ -107,13 +107,6 @@
             <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
             <!-- about:support -->
             <menuitem value="about:support" label="&aboutSupport.label;" accesskey="&aboutSupport.accesskey;"/>
-            <!-- about:sync-* menu -->
-            <menu id="viewAboutSyncMenu" label="&viewAboutSyncMenu.label;" accesskey="&viewAboutSyncMenu.accesskey;">
-              <menupopup id="menu_viewAboutSyncMenuPopup">
-                <menuitem value="about:sync-log" label="&aboutSyncLog.label;" accesskey="&aboutSyncLog.accesskey;"/>
-                <menuitem value="about:sync-tabs" label="&aboutSyncTabs.label;" accesskey="&aboutSyncTabs.accesskey;"/>
-              </menupopup>
-            </menu>
             <!-- about:tabs -->
             <menuitem value="about:tabs" label="&aboutTabs.label;" accesskey="&aboutTabs.accesskey;"/>
             <!-- about:telemetry -->

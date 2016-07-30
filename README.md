@@ -34,11 +34,9 @@ A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, incl
 30. about:serviceworkers
 31. about:sessionrestore
 32. about:support
-33. about:sync-log
-34. about:sync-tabs
-35. about:telemetry
-36. about:webrtc
-37. about:welcomeback
+33. about:telemetry
+34. about:webrtc
+35. about:welcomeback
 
 ### Related to other add-ons
 1. about:me
