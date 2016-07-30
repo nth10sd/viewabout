@@ -19,7 +19,6 @@
 <!ENTITY aboutCacheOffline.accesskey "o">
 <!ENTITY aboutConfig.label "about:config">
 <!ENTITY aboutConfig.accesskey "o">
-
 <!ENTITY aboutCrashes.label "about:crashes">
 <!ENTITY aboutCrashes.accesskey "c">
 <!ENTITY aboutCredits.label "about:credits">
@@ -48,7 +47,6 @@
 <!ENTITY aboutRights.accesskey "t">
 <!ENTITY aboutRobots.label "about:robots">
 <!ENTITY aboutRobots.accesskey "b">
-
 <!ENTITY aboutSessionRestore.label "about:sessionrestore">
 <!ENTITY aboutSessionRestore.accesskey "r">
 <!ENTITY aboutSupport.label "about:support">
