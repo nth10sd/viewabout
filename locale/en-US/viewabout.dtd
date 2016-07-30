@@ -95,7 +95,7 @@
 <!ENTITY aboutWelcomeback.label "about:welcomeback">
 <!ENTITY aboutWelcomeback.accesskey "w">
 
-<!ENTITY viewAboutErrorMenu.label "Error pages not useful by themselves">
+<!ENTITY viewAboutErrorMenu.label "Misc.">
 <!ENTITY viewAboutErrorMenu.accesskey "e">
 <!ENTITY aboutCertError.label "about:certerror">
 <!ENTITY aboutCertError.accesskey "r">

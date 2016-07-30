@@ -1,4 +1,5 @@
 ## 2.1.1
+* Tweaked a submenu name
 * Removed the following since they did not seem to show anything:
   1. about:downthemall
   2. about:sync-log
