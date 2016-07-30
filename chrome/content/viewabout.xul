@@ -17,6 +17,12 @@
         <menupopup id="menu_AtoC_popup">
           <!-- about: -->
           <menuitem value="about:" label="&about.label;" accesskey="&about.accesskey;"/>
+          <!-- about:about -->
+          <menuitem value="about:about" label="&aboutAbout.label;" accesskey="&aboutAbout.accesskey;"/>
+          <!-- about:accounts -->
+          <menuitem value="about:accounts" label="&aboutAccounts.label;" accesskey="&aboutAccounts.accesskey;"/>
+          <!-- about:addons -->
+          <menuitem value="about:addons" label="&aboutAddons.label;" accesskey="&aboutAddons.accesskey;"/>
           <!-- about:buildconfig -->
           <menuitem value="about:buildconfig" label="&aboutBuildConfig.label;" accesskey="&aboutBuildConfig.accesskey;"/>
           <!-- about:cache menu -->
@@ -31,6 +37,8 @@
           </menu>
           <!-- about:config -->
           <menuitem value="about:config" label="&aboutConfig.label;" accesskey="&aboutConfig.accesskey;"/>
+          <!-- about:checkerboard -->
+          <menuitem value="about:checkerboard" label="&aboutCheckerboard.label;" accesskey="&aboutCheckerboard.accesskey;"/>
           <!-- about:crashes -->
           <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
           <!-- about:credits -->
@@ -41,8 +49,18 @@
         <!-- DtoM menu -->
         <menu id="menuDtoM" label="&menuDtoM.label;" accesskey="&menuDtoM.accesskey;">
           <menupopup id="menu_DtoM_popup">
+            <!-- about:debugging -->
+            <menuitem value="about:debugging" label="&aboutDebugging.label;" accesskey="&aboutDebugging.accesskey;"/>
+            <!-- about:devtools-toolbox -->
+            <menuitem value="about:devtools-toolbox" label="&aboutDevtoolsToolbox.label;" accesskey="&aboutDevtoolsToolbox.accesskey;"/>
+            <!-- about:downloads -->
+            <menuitem value="about:downloads" label="&aboutDownloads.label;" accesskey="&aboutDownloads.accesskey;"/>
             <!-- about:downthemall -->
             <menuitem value="about:downthemall" label="&aboutDownthemall.label;" accesskey="&aboutDownthemall.accesskey;"/>
+            <!-- about:healthreport -->
+            <menuitem value="about:healthreport" label="&aboutHealthReport.label;" accesskey="&aboutHealthReport.accesskey;"/>
+            <!-- about:home -->
+            <menuitem value="about:home" label="&aboutHome.label;" accesskey="&aboutHome.accesskey;"/>
             <!-- about:license -->
             <menuitem value="about:license" label="&aboutLicense.label;" accesskey="&aboutLicense.accesskey;"/>
             <!-- about:logo -->
@@ -59,12 +77,22 @@
         <!-- NtoR menu -->
         <menu id="menuNtoR" label="&menuNtoR.label;" accesskey="&menuNtoR.accesskey;">
           <menupopup id="menu_NtoR_popup">
+            <!-- about:networking -->
+            <menuitem value="about:networking" label="&aboutNetworking.label;" accesskey="&aboutNetworking.accesskey;"/>
+            <!-- about:newtab -->
+            <menuitem value="about:newtab" label="&aboutNewTab.label;" accesskey="&aboutNewTab.accesskey;"/>
+            <!-- about:performance -->
+            <menuitem value="about:performance" label="&aboutPerformance.label;" accesskey="&aboutPerformance.accesskey;"/>
             <!-- about:permissions -->
             <menuitem value="about:permissions" label="&aboutPermissions.label;" accesskey="&aboutPermissions.accesskey;"/>
             <!-- about:plugins -->
             <menuitem value="about:plugins" label="&aboutPlugins.label;" accesskey="&aboutPlugins.accesskey;"/>
+            <!-- about:preferences -->
+            <menuitem value="about:preferences" label="&aboutPreferences.label;" accesskey="&aboutPreferences.accesskey;"/>
             <!-- about:privatebrowsing -->
             <menuitem value="about:privatebrowsing" label="&aboutPrivateBrowsing.label;" accesskey="&aboutPrivateBrowsing.accesskey;"/>
+            <!-- about:profiles -->
+            <menuitem value="about:profiles" label="&aboutProfiles.label;" accesskey="&aboutProfiles.accesskey;"/>
             <!-- about:rights -->
             <menuitem value="about:rights" label="&aboutRights.label;" accesskey="&aboutRights.accesskey;"/>
             <!-- about:robots -->
@@ -75,6 +103,8 @@
         <!-- StoZ menu -->
         <menu id="menuStoZ" label="&menuStoZ.label;" accesskey="&menuStoZ.accesskey;">
           <menupopup id="menu_StoZ_popup">
+            <!-- about:serviceworkers -->
+            <menuitem value="about:serviceworkers" label="&aboutServiceWorkers.label;" accesskey="&aboutServiceWorkers.accesskey;"/>
             <!-- about:sessionrestore -->
             <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
             <!-- about:support -->
@@ -88,6 +118,12 @@
             </menu>
             <!-- about:tabs -->
             <menuitem value="about:tabs" label="&aboutTabs.label;" accesskey="&aboutTabs.accesskey;"/>
+            <!-- about:telemetry -->
+            <menuitem value="about:telemetry" label="&aboutTelemetry.label;" accesskey="&aboutTelemetry.accesskey;"/>
+            <!-- about:webrtc -->
+            <menuitem value="about:webrtc" label="&aboutWebRTC.label;" accesskey="&aboutWebRTC.accesskey;"/>
+            <!-- about:welcomeback -->
+            <menuitem value="about:welcomeback" label="&aboutWelcomeback.label;" accesskey="&aboutWelcomeback.accesskey;"/>
           </menupopup>
         </menu>
 
