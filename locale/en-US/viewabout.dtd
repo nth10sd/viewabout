@@ -42,13 +42,14 @@
 <!ENTITY aboutPrivateBrowsing.label "about:privatebrowsing">
 <!ENTITY aboutPrivateBrowsing.accesskey "v">
 <!ENTITY aboutRights.label "about:rights">
-<!ENTITY aboutRights.accesskey "t">
+<!ENTITY aboutRights.accesskey "r">
 <!ENTITY aboutRobots.label "about:robots">
 <!ENTITY aboutRobots.accesskey "b">
 <!ENTITY aboutSessionRestore.label "about:sessionrestore">
-<!ENTITY aboutSessionRestore.accesskey "r">
+<!ENTITY aboutSessionRestore.accesskey "s">
 <!ENTITY aboutSupport.label "about:support">
-<!ENTITY aboutSupport.accesskey "t">
+<!ENTITY aboutSupport.accesskey "u">
+
 <!ENTITY viewAboutErrorMenu.label "Error pages not useful by themselves">
 <!ENTITY viewAboutErrorMenu.accesskey "e">
 <!ENTITY aboutCertError.label "about:certerror">
