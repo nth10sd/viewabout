@@ -85,7 +85,7 @@
 <!ENTITY aboutServiceWorkers.label "about:serviceworkers">
 <!ENTITY aboutServiceWorkers.accesskey "s">
 <!ENTITY aboutSessionRestore.label "about:sessionrestore">
-<!ENTITY aboutSessionRestore.accesskey "s">
+<!ENTITY aboutSessionRestore.accesskey "e">
 <!ENTITY aboutSupport.label "about:support">
 <!ENTITY aboutSupport.accesskey "u">
 <!ENTITY viewAboutSyncMenu.label "about:sync-*">
