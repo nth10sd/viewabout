@@ -15,8 +15,6 @@
         <!-- Set of 5 entries -->
         <!-- about: -->
         <menuitem value="about:" label="&about.label;" accesskey="&about.accesskey;"/>
-        <!-- about:accessibilityenabled -->
-        <menuitem value="about:accessibilityenabled" label="&aboutAccessibilityEnabled.label;" accesskey="&aboutAccessibilityEnabled.accesskey;"/>
         <!-- about:buildconfig -->
         <menuitem value="about:buildconfig" label="&aboutBuildConfig.label;" accesskey="&aboutBuildConfig.accesskey;"/>
         <!-- about:cache menu -->
@@ -39,12 +37,6 @@
         <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
         <!-- about:credits -->
         <menuitem value="about:credits" label="&aboutCredits.label;" accesskey="&aboutCredits.accesskey;"/>
-        <!-- about:icecream -->
-        <menuitem value="about:icecream" label="&aboutIceCream.label;" accesskey="&aboutIceCream.accesskey;"/>
-        <!-- about:jetpack -->
-        <menuitem value="about:jetpack" label="&aboutJetpack.label;" accesskey="&aboutJetpack.accesskey;"/>
-        <!-- about:kitchensink -->
-        <menuitem value="about:kitchensink" label="&aboutKitchenSink.label;" accesskey="&aboutKitchenSink.accesskey;"/>
         <menuseparator id="viewAboutMenuSeparatorTwo"/>
         <!-- End of set of 5 entries -->
 
@@ -58,8 +50,6 @@
         </menu>
         <!-- about:logo -->
         <menuitem value="about:logo" label="&aboutLogo.label;" accesskey="&aboutLogo.accesskey;"/>
-        <!-- about:me -->
-        <menuitem value="about:me" label="&aboutMe.label;" accesskey="&aboutMe.accesskey;"/>
         <!-- about:memory -->
         <menuitem value="about:memory" label="&aboutMemory.label;" accesskey="&aboutMemory.accesskey;"/>
         <!-- about:mozilla -->
@@ -76,16 +66,12 @@
         <menuitem value="about:rights" label="&aboutRights.label;" accesskey="&aboutRights.accesskey;"/>
         <!-- about:robots -->
         <menuitem value="about:robots" label="&aboutRobots.label;" accesskey="&aboutRobots.accesskey;"/>
-        <!-- about:search -->
-        <menuitem value="about:search" label="&aboutSearch.label;" accesskey="&aboutSearch.accesskey;"/>
         <menuseparator id="viewAboutMenuSeparatorFour"/>
         <!-- End of set of 5 entries -->
 
         <!-- Set of 5 entries -->
         <!-- about:sessionrestore -->
         <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
-        <!-- about:shopping -->
-        <menuitem value="about:shopping" label="&aboutShopping.label;" accesskey="&aboutShopping.accesskey;"/>
         <!-- about:support -->
         <menuitem value="about:support" label="&aboutSupport.label;" accesskey="&aboutSupport.accesskey;"/>
         <!-- Menu for various error messages, not useful by themselves -->
