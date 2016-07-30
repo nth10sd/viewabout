@@ -20,6 +20,10 @@ Most available and applicable about: dialog can be viewed, even those activated 
 * about:sessionrestore
 * about:support
 
+## Related to other add-ons
+* about:downthemall
+* about:tabs
+
 ## Seemingly useless
 * about:certerror (seemingly useless)
 * about:neterror (seemingly useless)

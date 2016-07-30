@@ -35,6 +35,8 @@
           <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
           <!-- about:credits -->
           <menuitem value="about:credits" label="&aboutCredits.label;" accesskey="&aboutCredits.accesskey;"/>
+          <!-- about:downthemall -->
+          <menuitem value="about:downthemall" label="&aboutDownthemall.label;" accesskey="&aboutDownthemall.accesskey;"/>
         </menupopup>
         </menu>
 
@@ -72,12 +74,13 @@
           </menupopup>
         </menu>
 
-        <!-- TtoZ menu --><!-- Not in use yet
+        <!-- TtoZ menu -->
         <menu id="menuTtoZ" label="&menuTtoZ.label;" accesskey="&menuTtoZ.accesskey;">
           <menupopup id="menu_TtoZ_popup">
+            <!-- about:tabs -->
+            <menuitem value="about:tabs" label="&aboutTabs.label;" accesskey="&aboutTabs.accesskey;"/>
           </menupopup>
         </menu>
-        -->
 
         <!-- Menu for various error messages, not useful by themselves -->
         <menu id="viewAboutErrorMenu" label="&viewAboutErrorMenu.label;" accesskey="&viewAboutErrorMenu.accesskey;">

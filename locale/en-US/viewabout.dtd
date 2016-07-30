@@ -23,6 +23,8 @@
 <!ENTITY aboutCrashes.accesskey "c">
 <!ENTITY aboutCredits.label "about:credits">
 <!ENTITY aboutCredits.accesskey "d">
+<!ENTITY aboutDownthemall.label "about:downthemall">
+<!ENTITY aboutDownthemall.accesskey "w">
 
 <!ENTITY menuGtoM.label "G - M">
 <!ENTITY menuGtoM.accesskey "g">
@@ -51,6 +53,11 @@
 <!ENTITY aboutSessionRestore.accesskey "s">
 <!ENTITY aboutSupport.label "about:support">
 <!ENTITY aboutSupport.accesskey "u">
+
+<!ENTITY menuTtoZ.label "T - Z">
+<!ENTITY menuTtoZ.accesskey "t">
+<!ENTITY aboutTabs.label "about:tabs">
+<!ENTITY aboutTabs.accesskey "t">
 
 <!ENTITY viewAboutErrorMenu.label "Error pages not useful by themselves">
 <!ENTITY viewAboutErrorMenu.accesskey "e">
