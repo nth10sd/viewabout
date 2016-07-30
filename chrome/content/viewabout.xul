@@ -12,9 +12,9 @@
     <menu id="viewAboutMenu">
       <menupopup id="menu_viewAbout" oncommand="viewabout.openUrl(event.target.value);">
 
-        <!-- AtoF menu -->
-        <menu id="menuAtoF" label="&menuAtoF.label;" accesskey="&menuAtoF.accesskey;">
-        <menupopup id="menu_AtoF_popup">
+        <!-- AtoC menu -->
+        <menu id="menuAtoC" label="&menuAtoC.label;" accesskey="&menuAtoC.accesskey;">
+        <menupopup id="menu_AtoC_popup">
           <!-- about: -->
           <menuitem value="about:" label="&about.label;" accesskey="&about.accesskey;"/>
           <!-- about:buildconfig -->
@@ -35,14 +35,14 @@
           <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
           <!-- about:credits -->
           <menuitem value="about:credits" label="&aboutCredits.label;" accesskey="&aboutCredits.accesskey;"/>
-          <!-- about:downthemall -->
-          <menuitem value="about:downthemall" label="&aboutDownthemall.label;" accesskey="&aboutDownthemall.accesskey;"/>
         </menupopup>
         </menu>
 
-        <!-- GtoM menu -->
-        <menu id="menuGtoM" label="&menuGtoM.label;" accesskey="&menuGtoM.accesskey;">
-          <menupopup id="menu_GtoM_popup">
+        <!-- DtoM menu -->
+        <menu id="menuDtoM" label="&menuDtoM.label;" accesskey="&menuDtoM.accesskey;">
+          <menupopup id="menu_DtoM_popup">
+            <!-- about:downthemall -->
+            <menuitem value="about:downthemall" label="&aboutDownthemall.label;" accesskey="&aboutDownthemall.accesskey;"/>
             <!-- about:license -->
             <menuitem value="about:license" label="&aboutLicense.label;" accesskey="&aboutLicense.accesskey;"/>
             <!-- about:logo -->
@@ -56,9 +56,9 @@
           </menupopup>
         </menu>
 
-        <!-- NtoS menu -->
-        <menu id="menuNtoS" label="&menuNtoS.label;" accesskey="&menuNtoS.accesskey;">
-          <menupopup id="menu_NtoS_popup">
+        <!-- NtoR menu -->
+        <menu id="menuNtoR" label="&menuNtoR.label;" accesskey="&menuNtoR.accesskey;">
+          <menupopup id="menu_NtoR_popup">
             <!-- about:permissions -->
             <menuitem value="about:permissions" label="&aboutPermissions.label;" accesskey="&aboutPermissions.accesskey;"/>
             <!-- about:plugins -->
@@ -69,6 +69,12 @@
             <menuitem value="about:rights" label="&aboutRights.label;" accesskey="&aboutRights.accesskey;"/>
             <!-- about:robots -->
             <menuitem value="about:robots" label="&aboutRobots.label;" accesskey="&aboutRobots.accesskey;"/>
+          </menupopup>
+        </menu>
+
+        <!-- StoZ menu -->
+        <menu id="menuStoZ" label="&menuStoZ.label;" accesskey="&menuStoZ.accesskey;">
+          <menupopup id="menu_StoZ_popup">
             <!-- about:sessionrestore -->
             <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
             <!-- about:support -->
@@ -80,12 +86,6 @@
                 <menuitem value="about:sync-tabs" label="&aboutSyncTabs.label;" accesskey="&aboutSyncTabs.accesskey;"/>
               </menupopup>
             </menu>
-          </menupopup>
-        </menu>
-
-        <!-- TtoZ menu -->
-        <menu id="menuTtoZ" label="&menuTtoZ.label;" accesskey="&menuTtoZ.accesskey;">
-          <menupopup id="menu_TtoZ_popup">
             <!-- about:tabs -->
             <menuitem value="about:tabs" label="&aboutTabs.label;" accesskey="&aboutTabs.accesskey;"/>
           </menupopup>

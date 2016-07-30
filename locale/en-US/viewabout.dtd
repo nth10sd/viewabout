@@ -1,8 +1,8 @@
 <!ENTITY viewAboutMenu.label "ViewAbout">
 <!ENTITY viewAboutMenu.accesskey "w">
 
-<!ENTITY menuAtoF.label "A - F">
-<!ENTITY menuAtoF.accesskey "a">
+<!ENTITY menuAtoC.label "A - C">
+<!ENTITY menuAtoC.accesskey "a">
 <!ENTITY about.label "about:">
 <!ENTITY about.accesskey "a">
 <!ENTITY aboutBuildConfig.label "about:buildconfig">
@@ -23,11 +23,11 @@
 <!ENTITY aboutCrashes.accesskey "c">
 <!ENTITY aboutCredits.label "about:credits">
 <!ENTITY aboutCredits.accesskey "d">
+
+<!ENTITY menuDtoM.label "D - M">
+<!ENTITY menuDtoM.accesskey "d">
 <!ENTITY aboutDownthemall.label "about:downthemall">
 <!ENTITY aboutDownthemall.accesskey "w">
-
-<!ENTITY menuGtoM.label "G - M">
-<!ENTITY menuGtoM.accesskey "g">
 <!ENTITY aboutLicense.label "Generic Toolkit license">
 <!ENTITY aboutLicense.accesskey "l">
 <!ENTITY aboutLogo.label "about:logo">
@@ -39,8 +39,8 @@
 <!ENTITY aboutMozilla.label "about:mozilla">
 <!ENTITY aboutMozilla.accesskey "z">
 
-<!ENTITY menuNtoS.label "N - S">
-<!ENTITY menuNtoS.accesskey "n">
+<!ENTITY menuNtoR.label "N - R">
+<!ENTITY menuNtoR.accesskey "n">
 <!ENTITY aboutPermissions.label "about:permissions">
 <!ENTITY aboutPermissions.accesskey "e">
 <!ENTITY aboutPlugins.label "about:plugins">
@@ -51,6 +51,9 @@
 <!ENTITY aboutRights.accesskey "r">
 <!ENTITY aboutRobots.label "about:robots">
 <!ENTITY aboutRobots.accesskey "b">
+
+<!ENTITY menuStoZ.label "S - Z">
+<!ENTITY menuStoZ.accesskey "s">
 <!ENTITY aboutSessionRestore.label "about:sessionrestore">
 <!ENTITY aboutSessionRestore.accesskey "s">
 <!ENTITY aboutSupport.label "about:support">
@@ -61,9 +64,6 @@
 <!ENTITY aboutSyncLog.accesskey "l">
 <!ENTITY aboutSyncTabs.label "about:sync-tabs">
 <!ENTITY aboutSyncTabs.accesskey "t">
-
-<!ENTITY menuTtoZ.label "T - Z">
-<!ENTITY menuTtoZ.accesskey "t">
 <!ENTITY aboutTabs.label "about:tabs">
 <!ENTITY aboutTabs.accesskey "t">
 
