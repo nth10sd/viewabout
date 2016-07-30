@@ -47,6 +47,8 @@
             <menuitem value="about:license" label="&aboutLicense.label;" accesskey="&aboutLicense.accesskey;"/>
             <!-- about:logo -->
             <menuitem value="about:logo" label="&aboutLogo.label;" accesskey="&aboutLogo.accesskey;"/>
+            <!-- about:me -->
+            <menuitem value="about:me" label="&aboutMe.label;" accesskey="&aboutMe.accesskey;"/>
             <!-- about:memory -->
             <menuitem value="about:memory" label="&aboutMemory.label;" accesskey="&aboutMemory.accesskey;"/>
             <!-- about:mozilla -->

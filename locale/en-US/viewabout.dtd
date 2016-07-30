@@ -32,6 +32,8 @@
 <!ENTITY aboutLicense.accesskey "l">
 <!ENTITY aboutLogo.label "about:logo">
 <!ENTITY aboutLogo.accesskey "g">
+<!ENTITY aboutMe.label "about:me">
+<!ENTITY aboutMe.accesskey "m">
 <!ENTITY aboutMemory.label "about:memory">
 <!ENTITY aboutMemory.accesskey "y">
 <!ENTITY aboutMozilla.label "about:mozilla">

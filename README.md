@@ -24,6 +24,7 @@ Most available and applicable about: dialog can be viewed, even those activated 
 
 ## Related to other add-ons
 * about:downthemall
+* about:me
 * about:tabs
 
 ## Seemingly useless
