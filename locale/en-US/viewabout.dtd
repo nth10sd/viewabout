@@ -1,6 +1,8 @@
 <!ENTITY viewAboutMenu.label "ViewAbout">
 <!ENTITY viewAboutMenu.accesskey "w">
 
+<!ENTITY menuAtoF.label "A - F">
+<!ENTITY menuAtoF.accesskey "a">
 <!ENTITY about.label "about:">
 <!ENTITY about.accesskey "a">
 <!ENTITY aboutBuildConfig.label "about:buildconfig">
@@ -25,6 +27,8 @@
 
 <!ENTITY viewAboutLicenseMenu.label "about:license">
 <!ENTITY viewAboutLicenseMenu.accesskey "l">
+<!ENTITY menuGtoM.label "G - M">
+<!ENTITY menuGtoM.accesskey "g">
 <!ENTITY aboutLicense.label "Generic Toolkit license">
 <!ENTITY aboutLicense.accesskey "l">
 <!ENTITY aboutLogo.label "about:logo">
@@ -34,6 +38,8 @@
 <!ENTITY aboutMozilla.label "about:mozilla">
 <!ENTITY aboutMozilla.accesskey "z">
 
+<!ENTITY menuNtoS.label "N - S">
+<!ENTITY menuNtoS.accesskey "n">
 <!ENTITY aboutPlugins.label "about:plugins">
 <!ENTITY aboutPlugins.accesskey "p">
 <!ENTITY aboutPrivateBrowsing.label "about:privatebrowsing">

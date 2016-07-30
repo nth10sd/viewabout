@@ -12,68 +12,71 @@
     <menu id="viewAboutMenu">
       <menupopup id="menu_viewAbout" oncommand="viewabout.openUrl(event.target.value);">
 
-        <!-- Set of 5 entries -->
-        <!-- about: -->
-        <menuitem value="about:" label="&about.label;" accesskey="&about.accesskey;"/>
-        <!-- about:buildconfig -->
-        <menuitem value="about:buildconfig" label="&aboutBuildConfig.label;" accesskey="&aboutBuildConfig.accesskey;"/>
-        <!-- about:cache menu -->
-        <menu id="viewAboutCacheMenu" label="&viewAboutCacheMenu.label;" accesskey="&viewAboutCacheMenu.accesskey;">
-          <menupopup id="menu_viewAboutCacheMenuPopup">
-            <!-- about:cache and related -->
-            <menuitem value="about:cache" label="&aboutCache.label;" accesskey="&aboutCache.accesskey;"/>
-            <menuitem value="about:cache?device=disk" label="&aboutCacheDisk.label;" accesskey="&aboutCacheDisk.accesskey;"/>
-            <menuitem value="about:cache?device=memory" label="&aboutCacheMemory.label;" accesskey="&aboutCacheMemory.accesskey;"/>
-            <menuitem value="about:cache?device=offline" label="&aboutCacheOffline.label;" accesskey="&aboutCacheOffline.accesskey;"/>
-          </menupopup>
+        <!-- AtoF menu -->
+        <menu id="menuAtoF" label="&menuAtoF.label;" accesskey="&menuAtoF.accesskey;">
+        <menupopup id="menu_AtoF_popup">
+          <!-- about: -->
+          <menuitem value="about:" label="&about.label;" accesskey="&about.accesskey;"/>
+          <!-- about:buildconfig -->
+          <menuitem value="about:buildconfig" label="&aboutBuildConfig.label;" accesskey="&aboutBuildConfig.accesskey;"/>
+          <!-- about:cache menu -->
+          <menu id="viewAboutCacheMenu" label="&viewAboutCacheMenu.label;" accesskey="&viewAboutCacheMenu.accesskey;">
+            <menupopup id="menu_viewAboutCacheMenuPopup">
+              <!-- about:cache and related -->
+              <menuitem value="about:cache" label="&aboutCache.label;" accesskey="&aboutCache.accesskey;"/>
+              <menuitem value="about:cache?device=disk" label="&aboutCacheDisk.label;" accesskey="&aboutCacheDisk.accesskey;"/>
+              <menuitem value="about:cache?device=memory" label="&aboutCacheMemory.label;" accesskey="&aboutCacheMemory.accesskey;"/>
+              <menuitem value="about:cache?device=offline" label="&aboutCacheOffline.label;" accesskey="&aboutCacheOffline.accesskey;"/>
+            </menupopup>
+          </menu>
+          <!-- about:config -->
+          <menuitem value="about:config" label="&aboutConfig.label;" accesskey="&aboutConfig.accesskey;"/>
+          <!-- about:crashes -->
+          <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
+          <!-- about:credits -->
+          <menuitem value="about:credits" label="&aboutCredits.label;" accesskey="&aboutCredits.accesskey;"/>
+        </menupopup>
         </menu>
-        <!-- about:config -->
-        <menuitem value="about:config" label="&aboutConfig.label;" accesskey="&aboutConfig.accesskey;"/>
-        <menuseparator id="viewAboutMenuSeparatorOne"/>
-        <!-- End of set of 5 entries -->
 
-        <!-- Set of 5 entries -->
-        <!-- about:crashes -->
-        <menuitem value="about:crashes" label="&aboutCrashes.label;" accesskey="&aboutCrashes.accesskey;"/>
-        <!-- about:credits -->
-        <menuitem value="about:credits" label="&aboutCredits.label;" accesskey="&aboutCredits.accesskey;"/>
-        <menuseparator id="viewAboutMenuSeparatorTwo"/>
-        <!-- End of set of 5 entries -->
-
-        <!-- Set of 5 entries -->
-        <!-- about:license menu -->
-        <menu id="viewAboutLicenseMenu" label="&viewAboutLicenseMenu.label;" accesskey="&viewAboutLicenseMenu.accesskey;">
-          <menupopup id="menu_viewAboutLicenseMenuPopup">
+        <!-- GtoM menu -->
+        <menu id="menuGtoM" label="&menuGtoM.label;" accesskey="&menuGtoM.accesskey;">
+          <menupopup id="menu_GtoM_popup">
             <!-- about:license -->
             <menuitem value="about:license" label="&aboutLicense.label;" accesskey="&aboutLicense.accesskey;"/>
+            <!-- about:logo -->
+            <menuitem value="about:logo" label="&aboutLogo.label;" accesskey="&aboutLogo.accesskey;"/>
+            <!-- about:memory -->
+            <menuitem value="about:memory" label="&aboutMemory.label;" accesskey="&aboutMemory.accesskey;"/>
+            <!-- about:mozilla -->
+            <menuitem value="about:mozilla" label="&aboutMozilla.label;" accesskey="&aboutMozilla.accesskey;"/>
           </menupopup>
         </menu>
-        <!-- about:logo -->
-        <menuitem value="about:logo" label="&aboutLogo.label;" accesskey="&aboutLogo.accesskey;"/>
-        <!-- about:memory -->
-        <menuitem value="about:memory" label="&aboutMemory.label;" accesskey="&aboutMemory.accesskey;"/>
-        <!-- about:mozilla -->
-        <menuitem value="about:mozilla" label="&aboutMozilla.label;" accesskey="&aboutMozilla.accesskey;"/>
-        <menuseparator id="viewAboutMenuSeparatorThree"/>
-        <!-- End of set of 5 entries -->
 
-        <!-- Set of 5 entries -->
-        <!-- about:plugins -->
-        <menuitem value="about:plugins" label="&aboutPlugins.label;" accesskey="&aboutPlugins.accesskey;"/>
-        <!-- about:privatebrowsing -->
-        <menuitem value="about:privatebrowsing" label="&aboutPrivateBrowsing.label;" accesskey="&aboutPrivateBrowsing.accesskey;"/>
-        <!-- about:rights -->
-        <menuitem value="about:rights" label="&aboutRights.label;" accesskey="&aboutRights.accesskey;"/>
-        <!-- about:robots -->
-        <menuitem value="about:robots" label="&aboutRobots.label;" accesskey="&aboutRobots.accesskey;"/>
-        <menuseparator id="viewAboutMenuSeparatorFour"/>
-        <!-- End of set of 5 entries -->
+        <!-- NtoS menu -->
+        <menu id="menuNtoS" label="&menuNtoS.label;" accesskey="&menuNtoS.accesskey;">
+          <menupopup id="menu_NtoS_popup">
+            <!-- about:plugins -->
+            <menuitem value="about:plugins" label="&aboutPlugins.label;" accesskey="&aboutPlugins.accesskey;"/>
+            <!-- about:privatebrowsing -->
+            <menuitem value="about:privatebrowsing" label="&aboutPrivateBrowsing.label;" accesskey="&aboutPrivateBrowsing.accesskey;"/>
+            <!-- about:rights -->
+            <menuitem value="about:rights" label="&aboutRights.label;" accesskey="&aboutRights.accesskey;"/>
+            <!-- about:robots -->
+            <menuitem value="about:robots" label="&aboutRobots.label;" accesskey="&aboutRobots.accesskey;"/>
+            <!-- about:sessionrestore -->
+            <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
+            <!-- about:support -->
+            <menuitem value="about:support" label="&aboutSupport.label;" accesskey="&aboutSupport.accesskey;"/>
+          </menupopup>
+        </menu>
 
-        <!-- Set of 5 entries -->
-        <!-- about:sessionrestore -->
-        <menuitem value="about:sessionrestore" label="&aboutSessionRestore.label;" accesskey="&aboutSessionRestore.accesskey;"/>
-        <!-- about:support -->
-        <menuitem value="about:support" label="&aboutSupport.label;" accesskey="&aboutSupport.accesskey;"/>
+        <!-- TtoZ menu --><!-- Not in use yet
+        <menu id="menuTtoZ" label="&menuTtoZ.label;" accesskey="&menuTtoZ.accesskey;">
+          <menupopup id="menu_TtoZ_popup">
+          </menupopup>
+        </menu>
+        -->
+
         <!-- Menu for various error messages, not useful by themselves -->
         <menu id="viewAboutErrorMenu" label="&viewAboutErrorMenu.label;" accesskey="&viewAboutErrorMenu.accesskey;">
           <menupopup id="menu_viewAboutErrorMenuPopup">
