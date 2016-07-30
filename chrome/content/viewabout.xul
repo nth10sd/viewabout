@@ -55,8 +55,6 @@
             <menuitem value="about:devtools-toolbox" label="&aboutDevtoolsToolbox.label;" accesskey="&aboutDevtoolsToolbox.accesskey;"/>
             <!-- about:downloads -->
             <menuitem value="about:downloads" label="&aboutDownloads.label;" accesskey="&aboutDownloads.accesskey;"/>
-            <!-- about:downthemall -->
-            <menuitem value="about:downthemall" label="&aboutDownthemall.label;" accesskey="&aboutDownthemall.accesskey;"/>
             <!-- about:healthreport -->
             <menuitem value="about:healthreport" label="&aboutHealthReport.label;" accesskey="&aboutHealthReport.accesskey;"/>
             <!-- about:home -->

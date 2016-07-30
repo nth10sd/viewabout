@@ -1,3 +1,7 @@
+## 2.1.1
+* Removed the following since they did not seem to show anything:
+  1. about:downthemall
+
 ## 2.1.0
 * Added A-C, D-M, N-R and S-Z subcategories
 * Added support for:

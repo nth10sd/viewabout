@@ -41,9 +41,8 @@ A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, incl
 37. about:welcomeback
 
 ### Related to other add-ons
-1. about:downthemall
-2. about:me
-3. about:tabs
+1. about:me
+2. about:tabs
 
 ### Seemingly useless
 1. about:certerror

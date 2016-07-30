@@ -40,8 +40,6 @@
 <!ENTITY aboutDevtoolsToolbox.accesskey "v">
 <!ENTITY aboutDownloads.label "about:downloads">
 <!ENTITY aboutDownloads.accesskey "n">
-<!ENTITY aboutDownthemall.label "about:downthemall">
-<!ENTITY aboutDownthemall.accesskey "w">
 <!ENTITY aboutHealthReport.label "about:healthreport">
 <!ENTITY aboutHealthReport.accesskey "h">
 <!ENTITY aboutHome.label "about:home">
