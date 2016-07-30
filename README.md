@@ -28,8 +28,8 @@ A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, incl
 * about:tabs
 
 ### Seemingly useless
-* about:certerror (seemingly useless)
-* about:neterror (seemingly useless)
+* about:certerror
+* about:neterror
 
 These windows can be closed using Ctrl (or Cmd)-w. Note that some about: menu options may not show up in applications that do not support them.
 
