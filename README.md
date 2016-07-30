@@ -1,5 +1,5 @@
 # ViewAbout
-Most available and applicable about: dialog can be viewed, even those activated by other extensions.
+A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, including those activated by other extensions.
 
 ### Standard
 * about:
