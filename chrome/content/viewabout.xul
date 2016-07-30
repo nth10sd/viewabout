@@ -86,7 +86,6 @@
             <menuitem value="about:neterror" label="&aboutNetError.label;" accesskey="&aboutNetError.accesskey;"/>
           </menupopup>
         </menu>
-        <menuseparator id="viewAboutMenuSeparatorFive"/>
         <!-- End of set of entries -->
 
       </menupopup>
