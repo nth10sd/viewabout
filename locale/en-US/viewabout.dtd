@@ -24,8 +24,6 @@
 <!ENTITY aboutCredits.label "about:credits">
 <!ENTITY aboutCredits.accesskey "d">
 
-<!ENTITY viewAboutLicenseMenu.label "about:license">
-<!ENTITY viewAboutLicenseMenu.accesskey "l">
 <!ENTITY menuGtoM.label "G - M">
 <!ENTITY menuGtoM.accesskey "g">
 <!ENTITY aboutLicense.label "Generic Toolkit license">
