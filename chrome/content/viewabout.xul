@@ -57,6 +57,8 @@
           <menupopup id="menu_NtoS_popup">
             <!-- about:plugins -->
             <menuitem value="about:plugins" label="&aboutPlugins.label;" accesskey="&aboutPlugins.accesskey;"/>
+            <!-- about:permissions -->
+            <menuitem value="about:permissions" label="&aboutPermissions.label;" accesskey="&aboutPermissions.accesskey;"/>
             <!-- about:privatebrowsing -->
             <menuitem value="about:privatebrowsing" label="&aboutPrivateBrowsing.label;" accesskey="&aboutPrivateBrowsing.accesskey;"/>
             <!-- about:rights -->
