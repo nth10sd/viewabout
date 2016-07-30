@@ -19,6 +19,8 @@ Most available and applicable about: dialog can be viewed, even those activated 
 * about:robots
 * about:sessionrestore
 * about:support
+* about:sync-log
+* about:sync-tabs
 
 ## Related to other add-ons
 * about:downthemall
