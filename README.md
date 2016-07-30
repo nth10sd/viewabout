@@ -1,7 +1,7 @@
 # ViewAbout
 Most available and applicable about: dialog can be viewed, even those activated by other extensions.
 
-## Standard
+### Standard
 * about:
 * about:buildconfig
 * about:cache (and related)
@@ -22,12 +22,12 @@ Most available and applicable about: dialog can be viewed, even those activated 
 * about:sync-log
 * about:sync-tabs
 
-## Related to other add-ons
+### Related to other add-ons
 * about:downthemall
 * about:me
 * about:tabs
 
-## Seemingly useless
+### Seemingly useless
 * about:certerror (seemingly useless)
 * about:neterror (seemingly useless)
 
