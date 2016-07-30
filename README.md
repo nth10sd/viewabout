@@ -2,52 +2,52 @@
 A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, including those activated by other extensions.
 
 ### Standard
-* about:
-* about:about
-* about:accounts
-* about:addons
-* about:buildconfig
-* about:cache (and related)
-* about:checkerboard
-* about:config
-* about:crashes
-* about:credits
-* about:debugging
-* about:devtools-toolbox
-* about:downloads
-* about:healthreport
-* about:home
-* about:license (generic Toolkit license)
-* about:logo
-* about:memory
-* about:mozilla
-* about:networking
-* about:newtab
-* about:performance
-* about:permissions
-* about:plugins
-* about:preferences
-* about:privatebrowsing
-* about:profiles
-* about:rights
-* about:robots
-* about:serviceworkers
-* about:sessionrestore
-* about:support
-* about:sync-log
-* about:sync-tabs
-* about:telemetry
-* about:webrtc
-* about:welcomeback
+1. about:
+2. about:about
+3. about:accounts
+4. about:addons
+5. about:buildconfig
+6. about:cache (and related)
+7. about:checkerboard
+8. about:config
+9. about:crashes
+10. about:credits
+11. about:debugging
+12. about:devtools-toolbox
+13. about:downloads
+14. about:healthreport
+15. about:home
+16. about:license (generic Toolkit license)
+17. about:logo
+18. about:memory
+19. about:mozilla
+20. about:networking
+21. about:newtab
+22. about:performance
+23. about:permissions
+24. about:plugins
+25. about:preferences
+26. about:privatebrowsing
+27. about:profiles
+28. about:rights
+29. about:robots
+30. about:serviceworkers
+31. about:sessionrestore
+32. about:support
+33. about:sync-log
+34. about:sync-tabs
+35. about:telemetry
+36. about:webrtc
+37. about:welcomeback
 
 ### Related to other add-ons
-* about:downthemall
-* about:me
-* about:tabs
+1. about:downthemall
+2. about:me
+3. about:tabs
 
 ### Seemingly useless
-* about:certerror
-* about:neterror
+1. about:certerror
+2. about:neterror
 
 These windows can be closed using Ctrl (or Cmd)-w. Note that some about: menu options may not show up in applications that do not support them.
 
