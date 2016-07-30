@@ -37,10 +37,10 @@
 
 <!ENTITY menuNtoS.label "N - S">
 <!ENTITY menuNtoS.accesskey "n">
-<!ENTITY aboutPlugins.label "about:plugins">
-<!ENTITY aboutPlugins.accesskey "p">
 <!ENTITY aboutPermissions.label "about:permissions">
 <!ENTITY aboutPermissions.accesskey "e">
+<!ENTITY aboutPlugins.label "about:plugins">
+<!ENTITY aboutPlugins.accesskey "p">
 <!ENTITY aboutPrivateBrowsing.label "about:privatebrowsing">
 <!ENTITY aboutPrivateBrowsing.accesskey "v">
 <!ENTITY aboutRights.label "about:rights">

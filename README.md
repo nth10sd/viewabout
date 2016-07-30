@@ -13,6 +13,7 @@ Most available and applicable about: dialog can be viewed, even those activated 
 * about:memory
 * about:mozilla
 * about:neterror (seemingly useless)
+* about:permissions
 * about:plugins
 * about:privatebrowsing
 * about:rights
