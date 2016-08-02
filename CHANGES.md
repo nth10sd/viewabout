@@ -1,3 +1,6 @@
+## 2.1.2
+* Mark as multiprocess-compatible
+
 ## 2.1.1
 * Tweaked a submenu name
 * Removed the following since they did not seem to show anything:
