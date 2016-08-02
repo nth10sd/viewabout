@@ -6,6 +6,7 @@
     <em:id>viewabout@rumblingedge.com</em:id>
     <em:version>2.1.1</em:version>
     <em:type>2</em:type>
+    <em:multiprocessCompatible>true</em:multiprocessCompatible>
 
     <!-- Firefox -->
     <em:targetApplication>
