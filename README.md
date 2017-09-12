@@ -1,5 +1,11 @@
 # ViewAbout
-A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, including those activated by other extensions.
+A Mozilla Firefox / Thunderbird legacy add-on to open up available about: dialogs, including those activated by other extensions.
+
+ViewAbout **will not be ported to WebExtensions** once Firefox 57 is released, because:
+* `about:` dialogs such as `about:config`, `about:addons` and `about:debugging` are [privileged and cannot be opened](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/create)
+* `about:about` is now available for Firefox
+
+Thus, the last version where ViewAbout will work is 56.
 
 ### Standard
 1. about:
@@ -39,13 +45,13 @@ A Mozilla Firefox / Thunderbird add-on to open up available about: dialogs, incl
 35. about:welcomeback
 
 ### Related to other add-ons
-1. about:me
-2. about:tabs
+1. [about:me](https://addons.mozilla.org/en-US/firefox/addon/aboutme/)
+2. [about:tabs](https://addons.mozilla.org/en-US/firefox/addon/tab-stats/)
 
 ### Miscellaneous errors that are seemingly useless
 1. about:certerror
 2. about:neterror
 
-These windows can be closed using Ctrl (or Cmd)-w. Note that some about: menu options may not show up in applications that do not support them.
+These windows can be closed using Ctrl (or Cmd)-w. Note that some `about:` menu options may not show up in applications that do not support them.
 
-ViewAbout started initially from a need to view about:crashes on Thunderbird.
+ViewAbout started initially from a need to view `about:crashes` on Thunderbird.
